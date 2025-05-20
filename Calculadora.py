@@ -1,4 +1,5 @@
 from Operaciones import suma, resta, multiplicacion, division, potencia, comparar, mcd, mcm
+from Colaboradores import Creador, Colaborador
 
 def calculadora():
     while True:
@@ -12,6 +13,8 @@ def calculadora():
         print("7. Mínimo Común Múltiplo (MCM)")
         print("8. Máximo Común Divisor (MCD)")
         print("9. Salir")
+        print("Creadores: ", Creador)
+        print("Colaboradores: ", Colaborador)
 
         opcion = input("Seleccione una opción (1-9): ")
 
